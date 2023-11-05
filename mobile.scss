@@ -1,0 +1,16 @@
+@mixin no-visibility { visibility: hidden; display: none;}
+
+@media screen and (min-width: 350px) {
+
+    body {
+        max-width: 480px;
+        
+        .contentInfoTwo {
+            @include no-visibility;
+        }
+    }
+
+    .desktop__button, .desktop__buttonTwo {
+        @include no-visibility;
+    }
+}

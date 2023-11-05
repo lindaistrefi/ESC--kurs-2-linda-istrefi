@@ -1,0 +1,309 @@
+@media screen and (min-width: 1280px) {
+
+    body {
+width: 1280px;
+        max-width: 1400px;
+        height: 100vh;
+
+    }
+
+    h1 {
+
+        font-size: 1.4em;
+        margin-top: 5%;
+        padding-bottom:0%;
+    }
+
+    .headerIntro__nav {
+        margin-top: 5%;
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+        font-size: 1.5em;
+        font-weight: 700;
+        padding-bottom: 2%;
+    }
+
+    div.container {
+
+        width: 100%;
+        height: 60%;
+        margin-bottom: 5%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    
+    }
+
+   
+
+    #nav-hover:hover {
+
+        color: rgba(138, 207, 229, 1);
+    }
+
+    #mainImage {
+
+        height: 50%;
+    }
+
+
+    .userExample {
+
+        display: flex;
+
+    }
+
+    .desktop__button {
+
+        visibility: visible;
+        display: inline;
+        background-color: rgba(227, 23, 10, 1);
+        color: white;
+        padding: 10px;
+        font-weight: 700;
+        border-radius: 4px;
+        display: flex;
+        margin-left: 20%;
+        margin-right: -20%;
+
+
+    }
+
+    .userExample__button,
+    .desktop__button {
+        width: 308px;
+        display: inline;
+        margin-top: -2%;
+       
+
+
+    }
+
+
+
+    small {
+
+        visibility: hidden;
+
+    }
+
+    .container {
+
+        width: 100%;
+    }
+
+    .box {
+
+        display: flex;
+
+    }
+
+    .contentInfoOne__text {
+        margin-right: 5px;
+        width: 65%;
+        line-height: normal;
+
+    }
+
+
+    div.contentInfoTwo {
+        visibility: visible;
+        display: inline;
+
+    }
+
+    .contentInfoTwo__text {
+
+        line-height: normal;
+        display: flex;
+        font-style: italic;
+        text-align: start;
+        margin: auto;
+        margin-left: 25%;
+    }
+
+    .contentInfoTwo img {
+        width: 20%;
+        float: left;
+        margin-left: 10%;
+    }
+
+    .contentInfoOne img {
+
+        margin-left: 10%;
+    }
+
+    .contentInfoTwo p {
+
+        margin-top: 3%;
+    }
+
+
+    h2 {
+        text-align: center;
+    }
+
+    .on-site {
+
+        display: flex;
+    }
+
+
+    .desktop__buttonTwo {
+        visibility: visible;
+        display: flex;
+        background-color: rgba(227, 23, 10, 1);
+        color: white;
+        padding: 10px;
+        font-weight: 700;
+        border-radius: 4px;
+        margin-left: 20%;
+        margin-right: 0%;
+
+    }
+
+    .on-site__button,
+    .desktop__buttonTwo {
+        width: 308px;
+        display: flex;
+        
+        
+
+    }
+
+    .on-site__button {
+        margin-top:6%;
+        
+
+    }
+
+    .container small {
+
+        visibility: visible;
+    }
+
+    div.slideOne {
+
+        margin-left: 10%;
+        width: 85%;
+        overflow-y: visible;
+        
+    }
+
+    div.slideTwo {
+        width: 85%;
+        margin-left: 10%;
+    }
+
+    div.slideThree {
+        width: 85%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .theStory {
+
+        width: 100%;
+        text-align: center;
+    }
+
+    h4 {
+
+        width: 50%;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+
+    .bookOn-site {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .bookOn-site img:first-child {
+
+        width: 100%;
+    }
+    
+
+   
+    
+    .bookOn-site text,
+    h5 {
+height: 11vh;
+        margin: 0;
+        margin-left: 5%;
+       
+
+    }
+
+    .bookOn-site__button {
+margin-top:10%;
+        width: 37%;
+        height: 8vh;
+
+    }
+
+    .playAndSee img {
+
+        width: 50%;
+        float: right;
+        margin-top: -4%;
+
+
+
+    }
+
+
+    .playAndSee__button,
+    .playAndSee text,
+    h6 {
+
+        width: 35%;
+        align-items: center;
+
+
+    }
+
+    .playAndSee__button {
+        width: 20%;
+        margin-top: 0;
+
+    }
+
+
+    footer {
+
+        display: flex;
+
+    }
+
+    .contactLinks {
+        display: flexbox;
+        margin: 2% 5% 2% 10%;
+        width: 40%;
+    }
+
+    .site-Map {
+
+        width: 20%;
+        margin-left: 6%;
+        margin-right: 10%;
+        margin-top: 2.5%;
+    }
+
+    .socialLinks {
+        display: block;
+        width: 40%;
+        align-items: center;
+        justify-content: center;
+        display: flexbox;
+        margin-left: 0%;
+        margin-top: 1.8%;
+
+    }
+
+
+}
