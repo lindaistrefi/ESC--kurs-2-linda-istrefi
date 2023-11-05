@@ -61,6 +61,24 @@ body {
         display: block;
         margin: 4%;
     }
+    footer {
+        padding-top: 4%;
+        font-size: 0.75em;
+        font-weight: 400;
+        line-height: 21.09px;
+        background-color: rgba(1, 24, 39, 1);
+        color: white;
+        width: 100%;
+        display: flexbox;
+        border: 1px solid rgba(1, 24, 39, 1);
+    }
+
+    title {
+        display: flex;
+        font-size: 0.75em;
+        font-weight: 700;
+        margin: 2% 4% 0% 4%;
+    }
 }
 
 header {
@@ -71,8 +89,6 @@ header {
     background: rgba(1, 24, 39, 1);
     color: #FFFFFF;
     width: 100%;
-
-
 
     .headerIntro__logo {
         float: left;
@@ -92,7 +108,7 @@ header {
         margin-left: 5%;
     }
 
-    __visitorInfo {
+    .contentInfoOne__visitorInfo {
         margin: auto;
         line-height: 0px;
         margin-bottom: 105px;
@@ -101,26 +117,6 @@ header {
         margin-left: 10%;
         justify-content: left;
         width: 100%;
-
-    }
-
-    footer {
-        padding-top: 4%;
-        font-size: 0.75em;
-        font-weight: 400;
-        line-height: 21.09px;
-        background-color: rgba(1, 24, 39, 1);
-        color: white;
-        width: 100%;
-        display: flexbox;
-        border: 1px solid rgba(1, 24, 39, 1);
-    }
-
-    title {
-        display: flex;
-        font-size: 0.75em;
-        font-weight: 700;
-        margin: 2% 4% 0% 4%;
     }
 }
 
@@ -308,40 +304,30 @@ a {
         font-weight: 700;
         margin: 4% 4% 0% 4%;
     }
-
-
 }
 
 .socialLinks a:last-child {
     padding-bottom: 3em;
 }
 
-
-
-
-
-
-
 @media screen and (min-width: 350px) {
 
     body {
         max-width: 480px;
-
     }
 
     nav {
         visibility: hidden;
         display: none;
-
     }
 
     .desktop {
-        __button {
+        .desktop__button {
             visibility: hidden;
             display: none;
         }
 
-        __buttonTwo {
+        .desktop__buttonTwo {
             visibility: hidden;
             display: none;
         }
@@ -474,7 +460,7 @@ a {
     .contentInfoTwo {
         visibility: visible;
 
-        __text {
+        .contentInfoTwo__text {
             line-height: normal;
             display: flex;
             font-style: italic;
@@ -497,7 +483,7 @@ a {
     .on-site {
         display: flex;
 
-        __button {
+        .on-site__button {
             margin-top: 6%;
         }
     }
@@ -539,7 +525,7 @@ a {
             margin-left: 5%;
         }
 
-        __button {
+        .bookOn-site__button {
             margin-top: 10%;
             width: 30%;
             height: 8vh;
@@ -558,14 +544,14 @@ a {
         margin-top: -4%;
     }
 
-    __button,
+    .playAndSee__button,
     text,
     h6 {
         width: 35%;
         align-items: center;
     }
 
-    __button {
+    .playAndSee__button {
         width: 20%;
         margin-top: 0;
 
@@ -613,7 +599,6 @@ a {
     footer {
         display: flex;
     }
-
 
 }
 
@@ -713,7 +698,7 @@ nav {
 
     .contentInfoOne {
 
-        __text {
+        .contentInfoOne__text {
             margin-right: 0px;
             width: 55%;
             margin-left: 0px;
@@ -734,7 +719,7 @@ nav {
     .contentInfoTwo {
         visibility: visible;
 
-        __text {
+        .contentInfoTwo__text {
             width: 55%;
             line-height: normal;
             display: flex;
@@ -761,7 +746,7 @@ nav {
     .on-site {
         display: flex;
 
-        __button {
+        .on-site__button {
             margin-top: 7%;
         }
     }
@@ -795,11 +780,10 @@ nav {
     .bookOn-site {
         display: flex;
         margin: 0;
-        __button {
 
+        .bookOn-site__button {
             width: 60%;
             margin-left: 20%;
-    
         }
     }
 
@@ -820,7 +804,7 @@ nav {
         margin-top: -4%;
         height: 55vh;
     }
-    __button {
+    .playAndSee__button {
         width: 30%;
         margin-top: 0;
         margin-left: 10%;
