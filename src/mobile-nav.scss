@@ -1,8 +1,122 @@
+@media screen and (min-width: 350px) {
+
+
+
+  .links{
+    display: flex;
+    visibility: visible;
+    align-items: center;
+    z-index: 0;
+    
+   
+    
+  }
+  .headerIntro__nav--closeMenu {
+
+    display: none;
+    visibility: hidden;
+  }
+  .headerIntro__nav--openMenu {
+    display: inline-flex;
+    padding: 0rem 1rem 2rem 4rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    }
+
+
+.headerIntro__navTwo {
+display: flex;
+flex-direction: column;
+justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 2.2rem;
+  font-weight: 600;
+  gap: 2.5rem;
+  margin-top: 2rem;
+  
+  
+  
+}
+    
+    .headerIntro {
+
+      visibility: visible;
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+      opacity: 0.3;
+      display: block;
+      position:relative;
+      margin: 2rem;
+    }
+
+
+
+    #mobile-menu   {
+width: 80%;
+height: 90%;
+justify-content: center;
+top:0;
+left: 0;
+margin-top: 2.8rem;
+margin-left: 3.5rem;
+  position: absolute;
+  display: flex;
+  visibility: visible;
+  
+  background-color: #011827;
+}
+
+.headerIntro__nav--closeMenu {
+
+  visibility: visible;
+  opacity: 1;
+
+  align-self: end;
+  display: flex;
+  margin: 1rem;
+  padding: 1rem;
+
+  
+  
+}
+
+a.links {
+
+  display: flex;
+  
+  padding: 0.5rem;
+}
+
+
+   
+
+
+
+
+
+    html {
+
+visibility: hidden;
+    }
+}
+
+
 @media screen and (min-width: 900px){
 .headerIntro__nav--openMenu {
     display: none;
     visibility: hidden;
   }
+  .headerIntro__nav--closeMenu {
+    display: none;
+    visibility: hidden;
+
+  }
+  .links{
+    display: flex;
+    visibility: visible;
+  }
+ 
 }
 
 @media screen and (min-width: 1280px) {
@@ -11,9 +125,14 @@
         visibility: hidden;
       }
 
+      .headerIntro__nav--closeMenu {
+        display: none;
+        visibility: hidden;
+      }
+      .links{
+        display: flex;
+        visibility: visible;
+      }
+
 }
 
-@media screen and (min-width: 350px) {
-
-  
-}

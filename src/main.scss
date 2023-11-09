@@ -35,6 +35,7 @@ header {
   background: $colorBlue;
   color: #ffffff;
   width: 100%;
+  
 }
 
 .headerIntro__logo {
@@ -44,6 +45,9 @@ header {
   padding-top: 26px;
   padding-left: 27px;
 }
+
+
+
 
 #mainImage {
   height: 274px;
@@ -314,8 +318,15 @@ div.container {
   overflow-x: scroll;
 }
 
+
+@import "mobile-nav.scss";
+
 @import "mobile.scss";
 
 @import "breakpoint900.scss";
 
 @import "desktop.scss";
+
+
+
+
