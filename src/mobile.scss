@@ -5,8 +5,9 @@
 
 @media screen and (min-width: 350px) {
   body {
-    max-width: 480px;
-
+    margin:0;
+    padding: 0;
+  
     .contentInfoTwo {
       @include no-visibility;
     }
@@ -16,6 +17,9 @@
   .desktop__buttonTwo {
     @include no-visibility;
   }
- 
-}
+  .headerIntro__nav {
+    @include no-visibility;
+  }
 
+
+}
