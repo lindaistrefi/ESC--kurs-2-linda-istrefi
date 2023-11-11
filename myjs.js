@@ -1,41 +1,26 @@
-// my variables
-
-const openMenu = document.querySelector(".headerIntro__nav--openMenu")
-const closeBtn = document.querySelector(".headerIntro__nav--closeMenu");
-const popUpMenu = document.querySelector(".headerIntro__navTwo")
-const boxBack = document.querySelector(".headerIntro__nav--back");
-const theBox = document.querySelector("#mobile-menu")
+// declaring my variables 
+const mainMenu = document.querySelector(".containerMob");
+const closeMenu = document.querySelector(".closeMenu");
+const openMenu = document.querySelector(".openMenu");
 const myHTML = document.querySelector("html");
+const myMain = document.querySelector("main");
+const containerMob = document.querySelector(".containerMob");
 
-// adding eventListners to open and close mobile menu
+// adding eventlistner for click-functions
+openMenu.addEventListener("click", show);
+closeMenu.addEventListener("click", close);
 
-      //open menu
-
-openMenu.addEventListener(click, open);
-
-      //close menu
-
-closeBtn.addEventListener(click, close);      
-
-
-//adding my functions 
-
-function open(property) {
-
-popUpMenu.style.visibility = "hidden";
+// creating my functions for elements
+function show() {
+      mainMenu.style.display = "block";
+      myHTML.style.overflow = "hidden";
+      myMain.style.visibility = "hidden";
+      containerMob.style.display = "absolute"; 
 }
 
-
-function close (property) {
-
-  popUpMenu.style.visibility = "visible";
+function close(){
+      mainMenu.style.display = "none";
+      myHTML.style.removeProperty("overflow");
+      myMain.style.visibility ="visible";
 }
-
-
-
-
-
-
-
-
 
